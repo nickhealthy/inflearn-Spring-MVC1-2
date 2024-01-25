@@ -22,7 +22,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class RequestHeaderController {
 
-    @RequestMapping("/header")
+    @RequestMapping("/headers")
     public String headers(
             HttpServletRequest request,
             HttpServletResponse response,
